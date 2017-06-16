@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <Button
+        style="@style/button_main_menu"
+        android:id="@+id/Button_new_game"
+        android:text="New Game"/>
+    <Button
+        style="@style/button_main_menu"
+        android:id="@+id/Button_scan"
+        android:text="SCAN"/>
+    <Button
+        style="@style/button_main_menu"
+        android:id="@+id/Button_settings"
+        android:text="SETTINGS"/>
+    <Button
+        style="@style/button_main_menu"
+        android:id="@+id/Button_high_score"
+        android:text="HIGH SCORE"/>
+    </LinearLayout>
+    </RelativeLayout>

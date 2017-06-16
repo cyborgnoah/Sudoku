@@ -9,6 +9,13 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SUDOKU"
+            android:gravity="center"
+            android:padding="20sp"
+            android:textSize="15sp"/>
 
     <Button
         style="@style/button_main_menu"
